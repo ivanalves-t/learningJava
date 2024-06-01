@@ -1,0 +1,25 @@
+# Excluir arquivos binários compilados
+*.class
+
+# Excluir arquivos de configuração do Eclipse
+.project
+.classpath
+.settings/
+
+# Excluir arquivos de cache do Eclipse
+.metadata/
+
+# Excluir arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Excluir logs
+*.log
+
+# Excluir arquivos temporários
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+!.gitignore
