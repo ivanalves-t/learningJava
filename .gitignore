@@ -1,6 +1,6 @@
 # Excluir arquivos binários compilados
 *.class
-
+*.idea
 # Excluir arquivos de configuração do Eclipse
 .project
 .classpath
