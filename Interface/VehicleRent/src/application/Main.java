@@ -37,7 +37,7 @@ public class Main {
 		
 		System.out.println("INVOICE: ");
 		System.out.printf("Basic payment: %.2f\n" , cr.getInvoice().getBasicPayment());
-		System.out.printf("Tax: $.2f" , cr.getInvoice().getTax());
+		System.out.printf("Tax: %.2f\n" , cr.getInvoice().getTax());
 		System.out.printf("Total payment: %.2f" , cr.getInvoice().getTotalPayment());
 		
 		sc.close();
