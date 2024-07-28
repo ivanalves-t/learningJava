@@ -1,15 +1,17 @@
 package application;
 
+import services.MGDeductionService;
 import services.PayService;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		PayService payservice = new PayService();
+		PayService payService = new PayService(new MGDeductionService());
+//		PayService payservice = new PayService(new SPDeductionService());
 		
-		double tax = payservice.tax(1000.00);
-		
+		double tax = payService.tax(1000.00);
+// Resolution with dependency injection
 		System.out.println(tax);
 		
 	}
